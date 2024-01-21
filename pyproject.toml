@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "whisperflaskrealtime"
+version = "0.1.0"
+description = ""
+authors = ["Jonas Legion <jturbeaux@pm.me>"]
+license = "AGPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.1"
+ipython = "^8.20.0"
+ipdb = "^0.13.13"
+werkzeug = "^3.0.1"
+flask-socketio = "^5.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
